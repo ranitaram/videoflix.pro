@@ -5,6 +5,7 @@ import { PersonajesSectionComponent } from './personajes-section/personajes-sect
 import { RouterModule } from '@angular/router';
 import { GuionSectionComponent } from './guion-section/guion-section.component';
 import { AudioSectionComponent } from './audio-section/audio-section.component';
+import { ProductosSectionComponent } from './productos-section/productos-section.component';
 
 
 
@@ -13,7 +14,8 @@ import { AudioSectionComponent } from './audio-section/audio-section.component';
     HeaderComponent,
     PersonajesSectionComponent,
     GuionSectionComponent,
-    AudioSectionComponent
+    AudioSectionComponent,
+    ProductosSectionComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { AudioSectionComponent } from './audio-section/audio-section.component';
     HeaderComponent,
     PersonajesSectionComponent,
     GuionSectionComponent,
-    AudioSectionComponent
+    AudioSectionComponent,
+    ProductosSectionComponent
   ]
 })
 export class ComponentsModule { }
