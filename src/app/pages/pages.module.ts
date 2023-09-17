@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
 import { ComponentsModule } from '../components/components.module';
+import { PersonajesComponent } from './personajes/personajes.component';
 
 
 @NgModule({
   declarations: [
-    InicioComponent
+    InicioComponent,
+    PersonajesComponent
   ],
   imports: [
     CommonModule,
@@ -16,7 +18,8 @@ import { ComponentsModule } from '../components/components.module';
     ComponentsModule
   ], 
   exports: [
-    InicioComponent
+    InicioComponent,
+    PersonajesComponent
   ]
 })
 export class PagesModule { }
