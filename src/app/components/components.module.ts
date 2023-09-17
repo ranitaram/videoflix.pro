@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { PersonajesSectionComponent } from './personajes-section/personajes-section.component';
 import { RouterModule } from '@angular/router';
 import { GuionSectionComponent } from './guion-section/guion-section.component';
+import { AudioSectionComponent } from './audio-section/audio-section.component';
 
 
 
@@ -11,7 +12,8 @@ import { GuionSectionComponent } from './guion-section/guion-section.component';
   declarations: [
     HeaderComponent,
     PersonajesSectionComponent,
-    GuionSectionComponent
+    GuionSectionComponent,
+    AudioSectionComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { GuionSectionComponent } from './guion-section/guion-section.component';
   exports: [
     HeaderComponent,
     PersonajesSectionComponent,
-    GuionSectionComponent
+    GuionSectionComponent,
+    AudioSectionComponent
   ]
 })
 export class ComponentsModule { }

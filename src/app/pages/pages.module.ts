@@ -6,13 +6,15 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ComponentsModule } from '../components/components.module';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { GuionComponent } from './guion/guion.component';
+import { GaleriaAudioComponent } from './galeria-audio/galeria-audio.component';
 
 
 @NgModule({
   declarations: [
     InicioComponent,
     PersonajesComponent,
-    GuionComponent
+    GuionComponent,
+    GaleriaAudioComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { GuionComponent } from './guion/guion.component';
   ], 
   exports: [
     InicioComponent,
-    PersonajesComponent
+    PersonajesComponent,
+    GaleriaAudioComponent,
   ]
 })
 export class PagesModule { }
