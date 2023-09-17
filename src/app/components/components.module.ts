@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { PersonajesSectionComponent } from './personajes-section/personajes-section.component';
 import { RouterModule } from '@angular/router';
+import { GuionSectionComponent } from './guion-section/guion-section.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    PersonajesSectionComponent
+    PersonajesSectionComponent,
+    GuionSectionComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     HeaderComponent,
-    PersonajesSectionComponent
+    PersonajesSectionComponent,
+    GuionSectionComponent
   ]
 })
 export class ComponentsModule { }
