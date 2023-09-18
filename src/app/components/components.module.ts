@@ -8,6 +8,7 @@ import { AudioSectionComponent } from './audio-section/audio-section.component';
 import { ProductosSectionComponent } from './productos-section/productos-section.component';
 import { FinalSectionComponent } from './final-section/final-section.component';
 import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.component';
+import { MensajeSectionComponent } from './mensaje-section/mensaje-section.component';
 
 
 
@@ -19,7 +20,8 @@ import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.co
     AudioSectionComponent,
     ProductosSectionComponent,
     FinalSectionComponent,
-    ElegirPersonajeComponent
+    ElegirPersonajeComponent,
+    MensajeSectionComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.co
     AudioSectionComponent,
     ProductosSectionComponent,
     FinalSectionComponent,
-    ElegirPersonajeComponent
+    ElegirPersonajeComponent,
+    MensajeSectionComponent
   ]
 })
 export class ComponentsModule { }
