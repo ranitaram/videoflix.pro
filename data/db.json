@@ -1,0 +1,16 @@
+{
+    "personajes": [
+        {
+            "id":"001",
+            "nombre": "will-smit"
+        },
+        {
+            "id":"002",
+            "nombre": "cloide"
+        },
+        {
+            "id":"003",
+            "nombre": "json"
+        }
+    ]
+}
