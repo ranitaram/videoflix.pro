@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { GuionSectionComponent } from './guion-section/guion-section.component';
 import { AudioSectionComponent } from './audio-section/audio-section.component';
 import { ProductosSectionComponent } from './productos-section/productos-section.component';
+import { FinalSectionComponent } from './final-section/final-section.component';
 
 
 
@@ -15,7 +16,8 @@ import { ProductosSectionComponent } from './productos-section/productos-section
     PersonajesSectionComponent,
     GuionSectionComponent,
     AudioSectionComponent,
-    ProductosSectionComponent
+    ProductosSectionComponent,
+    FinalSectionComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import { ProductosSectionComponent } from './productos-section/productos-section
     PersonajesSectionComponent,
     GuionSectionComponent,
     AudioSectionComponent,
-    ProductosSectionComponent
+    ProductosSectionComponent,
+    FinalSectionComponent
   ]
 })
 export class ComponentsModule { }
