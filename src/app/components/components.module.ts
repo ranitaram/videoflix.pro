@@ -7,6 +7,7 @@ import { GuionSectionComponent } from './guion-section/guion-section.component';
 import { AudioSectionComponent } from './audio-section/audio-section.component';
 import { ProductosSectionComponent } from './productos-section/productos-section.component';
 import { FinalSectionComponent } from './final-section/final-section.component';
+import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.component';
 
 
 
@@ -17,7 +18,8 @@ import { FinalSectionComponent } from './final-section/final-section.component';
     GuionSectionComponent,
     AudioSectionComponent,
     ProductosSectionComponent,
-    FinalSectionComponent
+    FinalSectionComponent,
+    ElegirPersonajeComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +31,8 @@ import { FinalSectionComponent } from './final-section/final-section.component';
     GuionSectionComponent,
     AudioSectionComponent,
     ProductosSectionComponent,
-    FinalSectionComponent
+    FinalSectionComponent,
+    ElegirPersonajeComponent
   ]
 })
 export class ComponentsModule { }
