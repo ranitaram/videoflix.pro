@@ -11,6 +11,7 @@ import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.co
 import { MensajeSectionComponent } from './mensaje-section/mensaje-section.component';
 import { ContadorPalabrasComponent } from './contador-palabras/contador-palabras.component';
 import { FormsModule } from '@angular/forms';
+import { PasoFinalComponent } from './paso-final/paso-final.component';
 
 
 
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     FinalSectionComponent,
     ElegirPersonajeComponent,
     MensajeSectionComponent,
-    ContadorPalabrasComponent
+    ContadorPalabrasComponent,
+    PasoFinalComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +42,8 @@ import { FormsModule } from '@angular/forms';
     FinalSectionComponent,
     ElegirPersonajeComponent,
     MensajeSectionComponent,
-    ContadorPalabrasComponent
+    ContadorPalabrasComponent,
+    PasoFinalComponent
   ]
 })
 export class ComponentsModule { }
