@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="content">
+      <textarea [(ngModel)]="texto" placeholder="Ingresa tu texto aquí" class="text-input"></textarea>
+      <br>
+      <button (click)="contarPalabras()" class="count-button">Contar palabras</button>
+      <p *ngIf="contador !== null">Palabras contadas: {{ contador }}</p>
+      <button (click)="copiarTexto()" class="copy-button">Copiar texto</button>
+    </div>
+  </div>
+  

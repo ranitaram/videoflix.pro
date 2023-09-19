@@ -9,6 +9,8 @@ import { ProductosSectionComponent } from './productos-section/productos-section
 import { FinalSectionComponent } from './final-section/final-section.component';
 import { ElegirPersonajeComponent } from './elegir-personaje/elegir-personaje.component';
 import { MensajeSectionComponent } from './mensaje-section/mensaje-section.component';
+import { ContadorPalabrasComponent } from './contador-palabras/contador-palabras.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -21,11 +23,13 @@ import { MensajeSectionComponent } from './mensaje-section/mensaje-section.compo
     ProductosSectionComponent,
     FinalSectionComponent,
     ElegirPersonajeComponent,
-    MensajeSectionComponent
+    MensajeSectionComponent,
+    ContadorPalabrasComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   exports: [
     HeaderComponent,
@@ -35,7 +39,8 @@ import { MensajeSectionComponent } from './mensaje-section/mensaje-section.compo
     ProductosSectionComponent,
     FinalSectionComponent,
     ElegirPersonajeComponent,
-    MensajeSectionComponent
+    MensajeSectionComponent,
+    ContadorPalabrasComponent
   ]
 })
 export class ComponentsModule { }
